@@ -101,13 +101,12 @@ class SimpleButton : AppCompatButton {
     }
 
     init {
-        height = 48.toPx(context)
-        elevation = 0f
-        stateListAnimator = null
-        transformationMethod = null
-
-        val typeFace = Typeface.createFromAsset(context.assets, "segoe_ui_bold.ttf")
-        typeface = typeFace
+            height = 48.toPx(context)
+            elevation = 0f
+            stateListAnimator = null
+            transformationMethod = null
+        if (!isInEditMode) {
+        }
     }
 
     // region Lifecycle
