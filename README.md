@@ -20,6 +20,7 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.github.whitedew1922:SimpleButton:1.0.0'
+	        implementation 'com.github.whitedew1922:SimpleButton:[![](https://jitpack.io/v/whitedew1922/SimpleButton.svg)](https://jitpack.io/#whitedew1922/SimpleButton)
+'
 	}
 ```
